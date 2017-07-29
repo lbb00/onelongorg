@@ -1,0 +1,37 @@
+@import 'base.less';
+/* css reset */
+*{
+    box-sizing: border-box;
+}
+html {
+  background: @bg-color;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+}
+body,
+button, input, select, textarea {
+  font: 300 1em/1.0 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+  color: @font-default-color;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+fieldset, lengend, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+}
+ul, ol { list-style: none; }
+i,a{
+    text-decoration: none;
+}
+
+/* base */
+a{
+    color: @a-color;
+    transition: .2s;
+    &:hover{
+        color: @a-hover-color;
+    }
+}
