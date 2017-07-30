@@ -36,7 +36,7 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 9;
   width: 100%;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 1px 6px #ccc;

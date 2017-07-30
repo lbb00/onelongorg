@@ -12,8 +12,11 @@ import BigScreen from './BigScreen'
 import PostsScreen from './PostsScreen'
 import ProjectsScreen from './ProjectsScreen'
 import SnsList from '../../components/SnsList'
+
+import mixin from '../mixin'
 export default {
   name: 'home',
+  mixins: [mixin],
   components: {
     BigScreen,
     PostsScreen,

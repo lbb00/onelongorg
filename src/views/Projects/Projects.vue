@@ -41,8 +41,10 @@
 </template>
 
 <script>
+import mixin from '../mixin'
 export default {
   name: 'project',
+  mixins: [mixin],
   data () {
     return {
       items: [

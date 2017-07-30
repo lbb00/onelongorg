@@ -44,7 +44,10 @@
 
 <script>
 import SnsList from '../../components/SnsList'
+
+import mixin from '../mixin'
 export default {
+  mixins: [mixin],
   components: {
     SnsList
   }
@@ -115,8 +118,7 @@ export default {
 @media screen and (max-width: 1100px) {
   .aboutme {
     &-wrap {
-      padding: 30px 20px;
-      padding-bottom: 0;
+      padding: 30px 30px;
     }
     &-content {
       padding: 30px 40px;
