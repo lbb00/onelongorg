@@ -6,6 +6,8 @@
 
 欢迎你访问我的个人网站 [onelong.org](https://www.onelong.org)
 
+如果上面的网址无法访问,请访问GitPage备份 [loveonelong.github.io](https://loveonelong.github.io)
+
 Thanks ❤.
 
 ## Build Setup
