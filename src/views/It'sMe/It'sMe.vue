@@ -1,7 +1,7 @@
 <template>
-  <div class="aboutme">
-    <div class="aboutme-wrap">
-      <div class="aboutme-content">
+  <div class="itsMe">
+    <div class="itsMe-wrap">
+      <div class="itsMe-content">
         <h1>曹云龙-OneLong</h1>
         <p>Email：love@onelong.org</p>
         <p>QQ：2827296523</p>
@@ -26,12 +26,11 @@
         <p>2017/4 蓝桥杯C/C++河南省C组一等奖</p>
         <hr>
         <br>
-        <p class="align-center">我会一直陪着你</p>
         <p class="align-center">It's Me</p>
         <p class="align-center">❤</p>
       </div>
     </div>
-    <div class="aboutme-snslist">
+    <div class="itsMe-snslist">
       <sns-list></sns-list>
     </div>
     <!-- music 网易云 -->
@@ -56,7 +55,7 @@ export default {
 
 <style lang="less">
 @import "../../assets/style/base.less";
-.aboutme {
+.itsMe {
   width: 100%;
   &-snslist {
     width: 100%;
@@ -116,7 +115,7 @@ export default {
 }
 
 @media screen and (max-width: 1100px) {
-  .aboutme {
+  .itsMe {
     &-wrap {
       padding: 30px 30px;
     }
