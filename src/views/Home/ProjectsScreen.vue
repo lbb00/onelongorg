@@ -9,7 +9,7 @@
   
       <div class="card-project">
         <ul>
-          <li v-for="item in items">
+          <li v-for="item in items" :key="item.id">
             <a :href="item.mainhref">
               <img :src="item.imgsrc" :alt="item.alt">
               <div class="textbox">
@@ -22,7 +22,7 @@
         </ul>
       </div>
   
-      <router-link to="/project">
+      <router-link to="/projects">
         <a class="more">查看更多项目</a>
       </router-link>
     </div>
