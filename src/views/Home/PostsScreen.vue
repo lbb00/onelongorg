@@ -10,10 +10,7 @@
       <div class="">
   
       </div>
-  
-      <router-link to="/blog">
-        <a class="more">查看我的博客</a>
-      </router-link>
+        <a class="more" href="http://blog.onelong.org" target="_bank">查看我的博客</a>
     </div>
   </div>
 </template>
