@@ -1,7 +1,7 @@
 <template>
   <div class="project">
     <div class="github">
-      <a href="https://github.com/loveonelong">
+      <a href="https://github.com/loveonelong" target="_bank">
         <i class="iconfont icon-github"></i>github.com/loveonelong</a>
     </div>
     <div class="timeline-wrap">
