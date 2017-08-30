@@ -1,9 +1,12 @@
 import Fundebug from 'fundebug-javascript'
 import Vue from 'vue'
+
 Fundebug.apikey = '63b37735bec8382649bd9f063669af579fe785293932aea060bcd995b3a5c8b3'
 if (process.env.NODE_ENV === 'development') { // 开发环境
-  Fundebug.silent = true
+  Fundebug.silent = true // 开启fundebug静默模式
 }
+
+/* fundebug config */
 let formatComponentName = (vm) => {
   if (vm.$root === vm) return 'root'
   let name = vm._isVue ? vm.$options.name || vm.$options._componentTag : vm.name
